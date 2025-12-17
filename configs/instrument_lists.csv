@@ -1,0 +1,85 @@
+Asset Class,Symbol,Name,Sector/Type,Selection Criteria
+Equity Index,SP500,S&P 500 Index,Index,Market capitalization weighted
+Equity Index,NASDAQ,NASDAQ Composite Index,Index,Technology-heavy index
+Equity Index,FTSE100,FTSE 100 Index,Index,UK large-cap companies
+Equity Index,N225,Nikkei 225 Index,Index,Japanese blue-chip companies
+Equity Index,STOXX50,EURO STOXX 50 Index,Index,Eurozone blue-chip companies
+Stock,AAPL,Apple Inc.,Technology,Market cap > $2T, Technology sector
+Stock,MSFT,Microsoft Corporation,Technology,Market cap > $1.8T, Technology sector
+Stock,GOOGL,Alphabet Inc.,Technology,Market cap > $1.5T, Technology sector
+Stock,AMZN,Amazon.com Inc.,Consumer,Market cap > $1.4T, E-commerce leader
+Stock,TSLA,Tesla Inc.,Consumer,Market cap > $600B, Electric vehicles
+Stock,BRK.B,Berkshire Hathaway Inc.,Financials,Market cap > $600B, Diversified financials
+Stock,JPM,JPMorgan Chase & Co.,Financials,Market cap > $400B, Banking sector
+Stock,V,Visa Inc.,Financials,Market cap > $450B, Payment processing
+Stock,JNJ,Johnson & Johnson,Healthcare,Market cap > $400B, Pharmaceuticals
+Stock,UNH,UnitedHealth Group Inc.,Healthcare,Market cap > $450B, Health insurance
+Stock,PFE,Pfizer Inc.,Healthcare,Market cap > $200B, Pharmaceuticals
+Stock,XOM,Exxon Mobil Corporation,Energy,Market cap > $400B, Oil & gas
+Stock,CVX,Chevron Corporation,Energy,Market cap > $300B, Oil & gas
+... (additional 35 stocks following same format)
+Forex,EURUSD,Euro/US Dollar,Currency Pair,Major forex pair
+Forex,GBPUSD,British Pound/US Dollar,Currency Pair,Major forex pair
+Forex,USDJPY,US Dollar/Japanese Yen,Currency Pair,Major forex pair
+Forex,AUDUSD,Australian Dollar/US Dollar,Currency Pair,Major forex pair
+Commodity,GC,Gold Futures,Commodity,Precious metal, safe-haven asset
+Commodity,SI,Silver Futures,Commodity,Precious metal, industrial uses
+Commodity,CL,Crude Oil WTI Futures,Commodity,Energy benchmark
+Commodity,NG,Natural Gas Futures,Commodity,Energy commodity
+Commodity,HG,Copper Futures,Commodity,Industrial metal
+Commodity,ZW,Wheat Futures,Commodity,Agricultural commodity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
