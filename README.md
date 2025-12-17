@@ -1,5 +1,6 @@
 # FinAnalyzeNet: Financial Volatility Forecasting Dataset
 
+![Author](https://img.shields.io/badge/Author-Dr.%20Sanjay%20Agal-blueviolet)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/downloads/)
 [![Pandas](https://img.shields.io/badge/pandas-2.0%2B-orange)](https://pandas.pydata.org/)
 [![Dataset Size](https://img.shields.io/badge/dataset%20size-~500MB-brightgreen)]()
