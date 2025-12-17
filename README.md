@@ -1,11 +1,11 @@
 # FinAnalyzeNet: Financial Volatility Forecasting Dataset
 
-[![License: Academic](https://img.shields.io/badge/License-Academic-blue.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/downloads/)
+[![Pandas](https://img.shields.io/badge/pandas-2.0%2B-orange)](https://pandas.pydata.org/)
 [![Dataset Size](https://img.shields.io/badge/dataset%20size-~500MB-brightgreen)]()
+[![License: Academic](https://img.shields.io/badge/License-Academic-blue.svg)](LICENSE)
 
-## Overview
+## 📊 Overview
 This repository contains the complete dataset and code for reproducing the results of:
 **"A Novel Hybrid Deep Learning Framework for Volatility Prediction in Financial Markets"**
 
