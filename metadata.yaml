@@ -1,0 +1,80 @@
+asset_classes:
+  commodities:
+  - Gold
+  - Silver
+  - CrudeOil
+  - NaturalGas
+  - Copper
+  - Wheat
+  currency_pairs:
+  - EURUSD
+  - GBPUSD
+  - USDJPY
+  - AUDUSD
+  equity_indices:
+  - SP500
+  - NASDAQ
+  - FTSE100
+  - N225
+  - STOXX50
+  individual_stocks:
+    count: 50
+    sectors:
+    - Technology
+    - Financials
+    - Healthcare
+    - Consumer
+    - Energy
+    stocks_per_sector: 10
+data_frequencies:
+  daily: All asset classes
+  hourly: Currency pairs and sentiment data
+  intraday_5min: Equity indices and first 5 stocks
+dataset:
+  creation_date: '2025-12-17'
+  name: Financial Volatility Forecasting Dataset
+  paper_reference: A Novel Hybrid Deep Learning Framework for Volatility Prediction
+    in Financial Markets
+  seed: 42
+  version: 1.0.0
+features:
+  macroeconomic:
+  - interest_rates
+  - inflation
+  - unemployment
+  - GDP
+  - VIX
+  - PMI
+  price_based:
+  - returns
+  - volatility
+  - skewness
+  - kurtosis
+  - moving_averages
+  - RSI
+  - MACD
+  - Bollinger_Bands
+  - ATR
+  sentiment:
+  - sentiment_score
+  - news_volume
+  - social_media_activity
+  volume_based:
+  - volume_ratios
+  - price_volume_correlation
+file_structure:
+  configs/: Configuration files
+  processed/: Engineered features and derived measures
+  raw/: Original generated data
+  results/: Pre-computed results and figures
+  splits/: Temporal train/validation/test splits
+reproducibility:
+  hash: 7cc38a873c26724c9c71456de9b46d098c79e763f42c71360a8863442604c979
+  random_seed: 42
+  requirements: See environment.yml in repository
+temporal_coverage:
+  end_date: '2023-12-31'
+  start_date: '2000-01-01'
+  testing_period: 2021-01-01 to 2023-12-31
+  training_period: 2000-01-01 to 2017-12-31
+  validation_period: 2018-01-01 to 2020-12-31

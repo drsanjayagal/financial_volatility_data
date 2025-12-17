@@ -1,0 +1,97 @@
+{
+  "dataset": {
+    "name": "Financial Volatility Forecasting Dataset",
+    "version": "1.0.0",
+    "creation_date": "2025-12-17",
+    "seed": 42,
+    "paper_reference": "A Novel Hybrid Deep Learning Framework for Volatility Prediction in Financial Markets"
+  },
+  "temporal_coverage": {
+    "start_date": "2000-01-01",
+    "end_date": "2023-12-31",
+    "training_period": "2000-01-01 to 2017-12-31",
+    "validation_period": "2018-01-01 to 2020-12-31",
+    "testing_period": "2021-01-01 to 2023-12-31"
+  },
+  "asset_classes": {
+    "equity_indices": [
+      "SP500",
+      "NASDAQ",
+      "FTSE100",
+      "N225",
+      "STOXX50"
+    ],
+    "individual_stocks": {
+      "count": 50,
+      "sectors": [
+        "Technology",
+        "Financials",
+        "Healthcare",
+        "Consumer",
+        "Energy"
+      ],
+      "stocks_per_sector": 10
+    },
+    "currency_pairs": [
+      "EURUSD",
+      "GBPUSD",
+      "USDJPY",
+      "AUDUSD"
+    ],
+    "commodities": [
+      "Gold",
+      "Silver",
+      "CrudeOil",
+      "NaturalGas",
+      "Copper",
+      "Wheat"
+    ]
+  },
+  "data_frequencies": {
+    "daily": "All asset classes",
+    "intraday_5min": "Equity indices and first 5 stocks",
+    "hourly": "Currency pairs and sentiment data"
+  },
+  "features": {
+    "price_based": [
+      "returns",
+      "volatility",
+      "skewness",
+      "kurtosis",
+      "moving_averages",
+      "RSI",
+      "MACD",
+      "Bollinger_Bands",
+      "ATR"
+    ],
+    "volume_based": [
+      "volume_ratios",
+      "price_volume_correlation"
+    ],
+    "macroeconomic": [
+      "interest_rates",
+      "inflation",
+      "unemployment",
+      "GDP",
+      "VIX",
+      "PMI"
+    ],
+    "sentiment": [
+      "sentiment_score",
+      "news_volume",
+      "social_media_activity"
+    ]
+  },
+  "file_structure": {
+    "raw/": "Original generated data",
+    "processed/": "Engineered features and derived measures",
+    "splits/": "Temporal train/validation/test splits",
+    "configs/": "Configuration files",
+    "results/": "Pre-computed results and figures"
+  },
+  "reproducibility": {
+    "random_seed": 42,
+    "hash": "7cc38a873c26724c9c71456de9b46d098c79e763f42c71360a8863442604c979",
+    "requirements": "See environment.yml in repository"
+  }
+}

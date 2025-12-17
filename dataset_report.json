@@ -1,0 +1,162 @@
+{
+  "verification_date": "2025-12-17T07:13:36.618465",
+  "metadata": {
+    "asset_classes": {
+      "commodities": [
+        "Gold",
+        "Silver",
+        "CrudeOil",
+        "NaturalGas",
+        "Copper",
+        "Wheat"
+      ],
+      "currency_pairs": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "AUDUSD"
+      ],
+      "equity_indices": [
+        "SP500",
+        "NASDAQ",
+        "FTSE100",
+        "N225",
+        "STOXX50"
+      ],
+      "individual_stocks": {
+        "count": 50,
+        "sectors": [
+          "Technology",
+          "Financials",
+          "Healthcare",
+          "Consumer",
+          "Energy"
+        ],
+        "stocks_per_sector": 10
+      }
+    },
+    "data_frequencies": {
+      "daily": "All asset classes",
+      "hourly": "Currency pairs and sentiment data",
+      "intraday_5min": "Equity indices and first 5 stocks"
+    },
+    "dataset": {
+      "creation_date": "2025-12-17",
+      "name": "Financial Volatility Forecasting Dataset",
+      "paper_reference": "A Novel Hybrid Deep Learning Framework for Volatility Prediction in Financial Markets",
+      "seed": 42,
+      "version": "1.0.0"
+    },
+    "features": {
+      "macroeconomic": [
+        "interest_rates",
+        "inflation",
+        "unemployment",
+        "GDP",
+        "VIX",
+        "PMI"
+      ],
+      "price_based": [
+        "returns",
+        "volatility",
+        "skewness",
+        "kurtosis",
+        "moving_averages",
+        "RSI",
+        "MACD",
+        "Bollinger_Bands",
+        "ATR"
+      ],
+      "sentiment": [
+        "sentiment_score",
+        "news_volume",
+        "social_media_activity"
+      ],
+      "volume_based": [
+        "volume_ratios",
+        "price_volume_correlation"
+      ]
+    },
+    "file_structure": {
+      "configs/": "Configuration files",
+      "processed/": "Engineered features and derived measures",
+      "raw/": "Original generated data",
+      "results/": "Pre-computed results and figures",
+      "splits/": "Temporal train/validation/test splits"
+    },
+    "reproducibility": {
+      "hash": "7cc38a873c26724c9c71456de9b46d098c79e763f42c71360a8863442604c979",
+      "random_seed": 42,
+      "requirements": "See environment.yml in repository"
+    },
+    "temporal_coverage": {
+      "end_date": "2023-12-31",
+      "start_date": "2000-01-01",
+      "testing_period": "2021-01-01 to 2023-12-31",
+      "training_period": "2000-01-01 to 2017-12-31",
+      "validation_period": "2018-01-01 to 2020-12-31"
+    }
+  },
+  "statistics": {
+    "temporal_coverage": {
+      "start_date": "2000-01-01",
+      "end_date": "2023-12-31",
+      "total_days": 8766,
+      "trading_days": 6030
+    },
+    "asset_counts": {
+      "equity_indices": 5,
+      "individual_stocks": 50,
+      "currency_pairs": 4,
+      "commodities": 6
+    },
+    "frequencies": {
+      "daily": "All asset classes",
+      "5-minute": "Equity indices",
+      "hourly": "Currency pairs, sentiment"
+    },
+    "feature_counts": {
+      "price_based": 24,
+      "volume_based": 8,
+      "technical_indicators": 15,
+      "macroeconomic": 8,
+      "sentiment": 3,
+      "total_features": 58
+    },
+    "file_sizes": {
+      "total_size_mb": 469.54,
+      "file_types": {
+        ".yml": 0.000171661376953125,
+        ".json": 0.0022268295288085938,
+        ".yaml": 0.0017108917236328125,
+        ".md": 0.0012292861938476562,
+        ".py": 2.193450927734375e-05,
+        ".txt": 6.103515625e-05,
+        ".csv": 469.4651584625244,
+        ".pkl": 0.06769084930419922
+      }
+    },
+    "data_quality": {
+      "SP500_sample": {
+        "total_records": 6260,
+        "missing_values": "0",
+        "date_range": {
+          "start": "2000-01-03",
+          "end": "2023-12-29"
+        },
+        "return_statistics": {
+          "mean": -0.0007740322144863947,
+          "std": 0.3569898118682208,
+          "skewness": -0.0010203712349710987,
+          "kurtosis": -1.370973255060003
+        }
+      }
+    }
+  },
+  "verification_results": {
+    "file_structure": true,
+    "temporal_coverage_verified": true,
+    "asset_counts_verified": true,
+    "feature_counts_verified": true
+  }
+}

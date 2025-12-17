@@ -1,0 +1,4 @@
+Horizon,FinAnalyzeNet_RMSE,Best_Benchmark_RMSE,Improvement_Percent
+1-day,0.134,0.149,10.1
+5-day,0.142,0.164,13.2
+20-day,0.151,0.179,15.8
