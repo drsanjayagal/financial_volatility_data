@@ -7,7 +7,7 @@
 
 ## 📊 Overview
 This repository contains the complete dataset and code for reproducing the results of:
-**"A Novel Hybrid Deep Learning Framework for Volatility Prediction in Financial Markets"**
+**"A Hybrid Deep Learning Framework for Volatility Prediction in Financial Markets"**
 
 ## Dataset Structure
 
